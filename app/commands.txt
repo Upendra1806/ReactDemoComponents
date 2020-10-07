@@ -1,0 +1,12 @@
+npm install
+//Dependency used for navigation
+
+npm install @react-navigation/stack
+npm install @react-navigation/native
+npm install react-native-reanimated react-native-gesture-handler react-native-sc
+reens react-native-safe-area-context @react-native-community/masked-view
+
+//Dependency used for View pager
+
+npm i react-native-best-viewpager
+npm i @react-native-community/viewpager
