@@ -3,6 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import SplashScreen from '../components/SplashScreen';
 import SampleViewPager from '../components/SampleViewPager'
+import ActionbarSample from '../components/ActionbarSample';
 
 
 const Stack = createStackNavigator();
@@ -23,6 +24,12 @@ function NavStack() {
             <Stack.Screen
                 name="SampleViewPager"
                 component={SampleViewPager}
+                options={{ headerShown: false }}
+            />
+
+            <Stack.Screen
+                name="ActionbarSample"
+                component={ActionbarSample}
                 options={{ headerShown: false }}
             />
 

@@ -10,3 +10,10 @@ reens react-native-safe-area-context @react-native-community/masked-view
 
 npm i react-native-best-viewpager
 npm i @react-native-community/viewpager
+
+//Action bar
+npm i react-native-action-bar
+npm install @types/react-native-action-bar
+
+//Drawer
+npm install react-native-drawer-layout --save

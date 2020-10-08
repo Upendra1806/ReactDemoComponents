@@ -9,7 +9,7 @@ class SplashScreen extends Component{
 
     componentDidMount() {
         Timer = setTimeout(() => {
-            this.props.navigation.navigate('SampleViewPager');
+            this.props.navigation.navigate('ActionbarSample');
         }, 2000)
     }
 
